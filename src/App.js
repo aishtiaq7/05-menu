@@ -14,6 +14,8 @@ function App() {
           <h2>Our Menu</h2>
         </div>
         <div className="underline"></div>
+        <Categories/>
+        <Menu key={new Date().getTime()} menuItems={items} />
       </section>
     </main>
   );
