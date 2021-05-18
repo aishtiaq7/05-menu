@@ -31,7 +31,7 @@ function App() {
     <main>
       <section className="menu section">
         <div className="title">
-          <h2>Our Menu</h2>
+          <h2>New Change</h2>
         <div className="underline"></div> 
         </div>
         <Categories filterCategory={filterCategory} allCategories={allCategories}/>
